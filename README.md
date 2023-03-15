@@ -1,2 +1,3 @@
-# express-backend-for-frontend
-An example of backend for frontend server using Express.js and React
+# backend-for-frontend-proxy
+
+An example of backend for frontend proxy server using Express.js and React

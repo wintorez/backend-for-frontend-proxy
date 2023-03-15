@@ -1,0 +1,17 @@
+{
+  "name": "backend-for-frontend-proxy",
+  "version": "1.0.0",
+  "description": "An example of backend for frontend proxy using Express.js and React",
+  "workspaces": [
+    "backend",
+    "backend-for-frontend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w backend-for-frontend\" \"npm run dev -w frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "prettier": "^2.8.4"
+  }
+}
